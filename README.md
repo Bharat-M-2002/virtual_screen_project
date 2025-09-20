@@ -25,7 +25,7 @@ A real-time application that lets you **draw, erase, and control a cursor** on t
 
 ## 🛠️ Tech Stack  
 
-- [Python 3.x](https://www.python.org/)  
+- [Python 3.x](https://www.python.org/)  (use python 3.10 or 3.11, because mediapipe won't support python 3.11> versions)
 - [OpenCV](https://opencv.org/) (for image processing & drawing)  
 - [MediaPipe](https://developers.google.com/mediapipe) (for hand tracking & landmarks)  
 - [NumPy](https://numpy.org/) (for fast math operations)  
