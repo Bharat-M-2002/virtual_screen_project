@@ -25,34 +25,17 @@ A real-time application that lets you **draw, erase, and control a cursor** on t
 
 ## 🛠️ Tech Stack  
 
-- [Python 3.x](https://www.python.org/)  (use python 3.10 or 3.11, because mediapipe won't support python 3.11> versions)
+- [Python 3.11](https://www.python.org/)  
 - [OpenCV](https://opencv.org/) (for image processing & drawing)  
 - [MediaPipe](https://developers.google.com/mediapipe) (for hand tracking & landmarks)  
 - [NumPy](https://numpy.org/) (for fast math operations)  
 
 ---
 
-## 🚀 How It Works  
+## ⚙️ Installation  
 
-1. **Hand Detection** → MediaPipe Hands detects 21 landmarks on your hand.  
-2. **Gesture Recognition** → Finger states (up/down) are checked to decide mode.  
-3. **Drawing Engine** →  
-   - In *write mode*, index fingertip coordinates are tracked & smoothed.  
-   - In *cursor mode*, only a visual cursor is shown.  
-   - In *eraser mode*, a blur/eraser circle clears parts of the canvas.  
-4. **Overlay & UI** → Drawings are blended with the webcam feed, plus mode labels.  
+### Create a Virtual Environment:
+py -3.11 -m venv my_env     (create virtual environment)
+my_env\Scripts\activate     (activate the scripts)
 
----
-
-## ⚡ Keyboard Shortcuts  
-
-| Key | Action |
-|-----|--------|
-| **Q** | Quit the app |
-| **C** | Clear canvas |
-| **S** | Save current drawing |
-
----
-
-## 📂 Project Structure  
-
+### Run python file 
