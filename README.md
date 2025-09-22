@@ -1,4 +1,4 @@
-<img width="512" height="512" alt="image" src="https://github.com/user-attachments/assets/71a004b2-8014-4d75-b541-abf9943a24a9" /># ✋ Hand Gesture Drawing with OpenCV + MediaPipe  
+# ✋ Hand Gesture Drawing with OpenCV + MediaPipe  
 
 A real-time application that lets you **draw, erase, and control a cursor** on the screen using **hand gestures** detected from your webcam. Built with **OpenCV** and **MediaPipe**, this project transforms your index finger into a pen for writing, and your palm into an eraser — all without touching a mouse or touchscreen.  
 
